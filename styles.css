@@ -1,0 +1,68 @@
+body{
+    width: 100%;
+}
+header {
+    font-family: 'Press Start 2P';
+    text-align: center;
+    width: 99.6%;
+    position: fixed;
+    top: 0;
+    right: 2px;
+    left: 2.5px;
+    background-color: #023F3F;
+    border-radius: 5px;
+}
+a:hover {
+    color: #FF3D3D;
+}
+a{
+    text-decoration: none;
+    color: #FF5F5F;
+}
+.content{
+    margin-top: 6.5%;
+    width: 100%;
+    background-color: #EEEEEE;
+}
+
+.feed{
+    display: flex;
+    flex-wrap: wrap;
+    width: 40%;
+    margin-left: 30%;
+    margin-right: 30%;
+
+}
+
+.post1, .post2, .post3, .post4 {
+    width: 100%;
+    background-color: white !important;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    border-radius: 5px;
+}
+
+.photoheader {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0.5%;
+    width: 99%;
+}
+.phototitle{
+    width: 90%;
+    margin-left: 1%;
+    font-family: 'Oswald', sans-serif;
+}
+.date {
+   width: 9%;
+   font-size: 12px;
+   color: #C6C6C6;
+}
+img {
+    width: 99.2%;
+    margin: 0.4%
+}
+.description {
+    margin: 3%;
+    font-size: 13px;
+}
